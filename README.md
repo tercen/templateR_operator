@@ -1,6 +1,8 @@
-# This is a template when creating repositories
+# Introduction
 
-Use this repository during the first step of developing a tercen operator (in R) on github.
+This is a template repository.
+
+Use this template repository during the first step of developing a tercen operator (in R) on github.
 
 An overview of steps for developing an operator are:
 
@@ -13,7 +15,7 @@ An overview of steps for developing an operator are:
 7. push to the github repo
 8. go to tercen and install the operator
 
-For the first step, while creating the repository, you will notice the option to use a template repository, choose the `templateR_operator` repository and select it as the template repository.
+For step 1, when creating the repo on github, you will notice the option to use a template repository, choose the `templateR_operator` repository and select it as the template repository.
 
 After creation, you now have a new repository with all the convenient files for making a new operator (in R) for tercen.
 
@@ -27,6 +29,6 @@ it includes the skeleton files
 * `README_template.md`
 * `doc` directory
 
-please the README_template.
+please remember to change the `README_template.md` to  `README.template.md`
 
 inside the `doc` there is a `dev_commands.md` file which contains useful development command lines.
