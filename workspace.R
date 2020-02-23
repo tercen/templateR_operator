@@ -1,10 +1,6 @@
 library(tercen)
 library(dplyr)
 
-options("tercen.serviceUri" = "https://beta.tercen.com/api/v1")
-options("tercen.username" =   "xxxx")
-options("tercen.password" =   "yyyy")
-
 options("tercen.workflowId" = "wwww")
 options("tercen.stepId"     = "dddd")
 
