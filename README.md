@@ -1,10 +1,6 @@
-# Introduction
+# Template R operator for Tercen
 
-This is a template repository.
-
-Use this template repository during the first step of developing a tercen operator (in R) on github.
-
-An overview of steps for developing an operator are:
+The `Template R operator` is a template repository for the creation of R operators in Tercen. An overview of steps for developing an operator are:
 
 1. create a github repo
 2. install tercen_studio
@@ -15,20 +11,35 @@ An overview of steps for developing an operator are:
 7. push to the github repo
 8. go to tercen and install the operator
 
-For step 1, when creating the repo on github, you will notice the option to use a template repository, choose the `templateR_operator` repository and select it as the template repository.
+More information can be found in [Tercen app builder's guide](https://tercen.github.io/appbuilders-guide/).
 
-After creation, you now have a new repository with all the convenient files for making a new operator (in R) for tercen.
+Below is the operator README standard structure:
 
-Use `tercen_studio` to clone the new repository and start programming in `tercen_studio`
+##### Description
 
-it includes the skeleton files 
+The `Template R operator` is a template repository for the creation of R operators in Tercen. An overview of steps for developing an operator are:
 
-* `main.R`
-* `workspace.R`
-* `operator.json`
-* `README_template.md`
-* `doc` directory
+##### Usage
 
-please remember to change the `README_template.md` to  `README.template.md`
+Input projection|.
+---|---
+`x-axis`        | type, description 
+`y-axis`        | type, description 
+`row`           | type, description 
+`column`        | type, description 
+`colors`        | type, description 
+`labels`        | type, description 
 
-inside the `doc` there is a `dev_commands.md` file which contains useful development command lines.
+Output relations|.
+---|---
+`Operator view`        | view of the Shiny application
+
+##### Details
+
+Details on the computation.
+
+##### See Also
+
+[template_shiny_operator](https://github.com/tercen/template_shiny_operator)
+, [template_docker_operator](https://github.com/tercen/template_docker_operator)
+
