@@ -1,9 +1,9 @@
 {
-  "name": "Median",
+  "name": "Template R operator",
   "description": "Return the medium value of a cell",
-  "tags": ["basic statistics"],
+  "tags": ["template"],
   "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/template_operator"],
+  "urls": ["https://github.com/tercen/template_R_operator"],
   "properties": []
 }
 
