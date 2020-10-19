@@ -17,7 +17,7 @@ Below is the operator README standard structure:
 
 ##### Description
 
-The `Template R operator` is a template repository for the creation of R operators in Tercen. An overview of steps for developing an operator are:
+The `Template R operator` is a template repository for the creation of R operators in Tercen.
 
 ##### Usage
 
@@ -32,6 +32,7 @@ Input projection|.
 
 Output relations|.
 ---|---
+`output_var`        | output relation
 `Operator view`        | view of the Shiny application
 
 ##### Details
