@@ -1,4 +1,4 @@
-# Template R operator for Tercen
+# Template R operator
 
 The `Template R operator` is a template repository for the creation of R operators in Tercen. An overview of steps for developing an operator are:
 
@@ -29,6 +29,10 @@ Input projection|.
 `column`        | type, description 
 `colors`        | type, description 
 `labels`        | type, description 
+
+Input parameters|.
+---|---
+`input_var`        | parameter description
 
 Output relations|.
 ---|---
